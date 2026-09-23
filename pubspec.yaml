@@ -1,0 +1,27 @@
+name: naqda_aquaculture_app
+description: A Flutter app for NAQDA — Fish Encyclopedia & Aquaculture tools.
+version: 0.1.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  provider: ^6.1.4
+  firebase_core: ^2.7.0
+  firebase_auth: ^4.6.0
+  cloud_firestore: ^4.6.0
+  firebase_storage: ^11.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

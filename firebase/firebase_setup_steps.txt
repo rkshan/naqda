@@ -1,0 +1,10 @@
+Firebase Setup Quick Commands
+
+# Install FlutterFire CLI
+flutter pub global activate flutterfire_cli
+
+# Generate firebase_options.dart
+flutterfire configure
+
+# Run the app
+flutter run
